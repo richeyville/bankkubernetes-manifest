@@ -6,8 +6,4 @@ data:
   DB_HOST: "production-mysql-db.c8h6kyeewmd5.us-east-1.rds.amazonaws.com"
   DB_PORT: "3306"
   DB_NAME: "production_db"
-<<<<<<< HEAD
   REACT_APP_API_URL: http://bank-backend-service:8080
-=======
-  REACT_APP_API_URL: http://bank-backend-service:8080
->>>>>>> 548d02390e1583d7a3b0f15ec73dec47d9e12c79

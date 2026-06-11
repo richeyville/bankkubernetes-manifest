@@ -19,7 +19,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: smart-prod-cluster
+  name: richeyville-prod-cluster
   region: us-east-1
   version: "1.34" 
 
