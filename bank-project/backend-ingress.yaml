@@ -11,11 +11,11 @@ spec:
   ingressClassName: external-nginx
   tls:
   - hosts:
-    - bankapi.themainpod14.online  # bankend url
-    - bank.themainpod14.online     # frontend url
-    secretName: bank-themainpod14-online
+    - bankapi.richeyville.online  # bankend url
+    - bank.richeyville.online     # frontend url
+    secretName: bank-richeyville-online
   rules:
-  - host: bank.themainpod14.online
+  - host: bank.richeyville.online
     http:
       paths:
       - path: /
@@ -25,7 +25,7 @@ spec:
             name: bank-frontend-service
             port:
               number: 3000
-  - host: bankapi.themainpod14.online
+  - host: bankapi.richeyville.online
     http:
       paths:
       - path: /
