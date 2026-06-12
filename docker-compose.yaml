@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   frontend:
-    image: 348230509416.dkr.ecr.us-east-2.amazonaws.com/netflix_frontend:12
+    image: 793524670489.dkr.ecr.us-east-1.amazonaws.com/bank-frontend:11
     ports:
       - "3000:3000"
     networks:
@@ -11,7 +11,7 @@ services:
     cpus: 0.5
 	
   backend:
-    image: 348230509416.dkr.ecr.us-east-2.amazonaws.com/netflix_backend:13
+    image: 793524670489.dkr.ecr.us-east-1.amazonaws.com/bank-backendapi:latest
     ports:
       - "8080:8080"
 	networks:
